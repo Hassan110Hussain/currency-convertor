@@ -84,11 +84,35 @@ label {
   width: 50vw;
   text-align: center;
   border: 2px solid black;
+  border-collapse: collapse;
   font-size: 20px;
+}
+
+.output table th,
+.output table td {
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .output {
   display: none;
+  margin-top: 30px;
+}
+
+.loading {
+  display: none;
+  color: #04044a;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
